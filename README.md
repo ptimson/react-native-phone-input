@@ -132,6 +132,8 @@ render(){
 | value                     | string           | null      | initial phone number                                                           |
 | style                     | object           | null      | custom styles to be applied if supplied                                        |
 | flagStyle                 | object           | null      | custom styles for flag image eg. {{width: 50, height: 30, borderWidth:0}}      |
+| flagButtonStyle           | object           | null      | custom styles for flag button - increase padding to make easier to press       |
+| flagButtonChildren        | object           | null      | add additional elements to flag button e.g. an icon                            |
 | textStyle                 | object           | null      | custom styles for phone number text input eg. {{fontSize: 14}}                 |
 | textProps                 | object           | null      | properties for phone number text input eg. {{placeholder: 'Telephone number'}} |
 | textComponent             | function         | TextField | the input component to use                                                     |
